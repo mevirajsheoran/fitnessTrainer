@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation Practices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f3f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .title {
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .description {
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .alert {
+            color: red;
+            font-weight: bold;
+            text-align: center;
+        }
+        .key-points {
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .key-points ul {
+            padding-left: 20px;
+        }
+        .key-points li {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .card img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .card-content {
+            flex: 1;
+        }
+        .card h3 {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        .card p {
+            font-size: 14px;
+            color: #555;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body onload="fetchUserMeditationGoals()">
+
+<div class="container">
+    <div class="title"> Meditation Practices</div>
+    <p class="description">Meditation helps in achieving relaxation, focus, and inner peace. Below are the top 20 meditation techniques and their benefits.</p>
+
+    <div id="alertMessage" class="alert" style="display: none;">
+        ⚠️ No meditation goals selected. Please update your info.
+    </div>
+
+    <!-- Key Points Section -->
+    <div class="key-points">
+        <h3> Key Benefits of Meditation</h3>
+        <ul>
+            <li>Reduces stress and anxiety</li>
+            <li>Improves concentration and focus</li>
+            <li>Boosts emotional well-being</li>
+            <li>Enhances self-awareness and mindfulness</li>
+            <li>Promotes better sleep and relaxation</li>
+        </ul>
+    </div>
+
+    <div id="meditationList" class="card-container">
+        <!-- Meditation cards will be populated here -->
+    </div>
+</div>
+
+<script>
+    async function fetchUserMeditationGoals() {
+        try {
+            const response = await fetch("/getUserProgress", { method: "GET", credentials: "include" });
+            const data = await response.json();
+
+            if (data.error) {
+                alert(data.error);
+                window.location.href = "login.html";
+                return;
+            }
+
+            // Check if meditation goals are selected
+            const meditationGoals = ["meditation", "mindfulness", "stress_relief", "emotional_wellbeing"];
+            let userMeditationGoal = meditationGoals.find(goal => data.goals[goal]);
+
+            if (!userMeditationGoal) {
+                document.getElementById("alertMessage").style.display = "block";
+                return;
+            }
+
+            // Populate meditation list
+            const meditations = [
+                { name: "Mindfulness Meditation", image: "images/mindfulness.jpg", how: "Focus on breath, observe thoughts without judgment.", benefits: "Reduces stress, improves focus." },
+                { name: "Transcendental Meditation", image: "images/transcendental.jpg", how: "Repeat a mantra silently.", benefits: "Enhances creativity, lowers blood pressure." },
+                { name: "Guided Meditation", image: "images/guided.jpg", how: "Follow an audio guide with visualization.", benefits: "Helps with anxiety, promotes relaxation." },
+                { name: "Vipassana Meditation", image: "images/vipassana.jpg", how: "Focus on bodily sensations with deep awareness.", benefits: "Increases self-awareness, emotional balance." },
+                { name: "Loving-Kindness Meditation", image: "images/lovingkindness.jpg", how: "Mentally send love to yourself and others.", benefits: "Boosts emotional well-being, reduces negativity." },
+                { name: "Zen Meditation (Zazen)", image: "images/zen.jpg", how: "Sit in a specific posture and focus on breath.", benefits: "Enhances mental clarity, promotes calmness." },
+                { name: "Chakra Meditation", image: "images/chakra.jpg", how: "Visualize and balance energy centers.", benefits: "Improves spiritual well-being, enhances energy flow." },
+                { name: "Yoga Meditation", image: "images/yoga.jpg", how: "Combine breath control and yoga poses.", benefits: "Improves flexibility, enhances mindfulness." },
+                { name: "Progressive Relaxation", image: "images/progressive.jpg", how: "Tense and relax different body parts.", benefits: "Reduces muscle tension, promotes sleep." },
+                { name: "Mantra Meditation", image: "images/mantra.jpg", how: "Chant a sacred sound repeatedly.", benefits: "Enhances concentration, spiritual connection." },
+                { name: "Walking Meditation", image: "images/walking.jpg", how: "Focus on each step while walking slowly.", benefits: "Increases body awareness, improves mindfulness." },
+                { name: "Body Scan Meditation", image: "images/bodyscan.jpg", how: "Mentally scan and relax each body part.", benefits: "Promotes deep relaxation, reduces stress." },
+                { name: "Kundalini Meditation", image: "images/kundalini.jpg", how: "Use breathwork and mantras to awaken energy.", benefits: "Boosts vitality, deepens spiritual connection." },
+                { name: "Sound Bath Meditation", image: "images/soundbath.jpg", how: "Listen to healing sounds and vibrations.", benefits: "Relaxes mind, promotes deep healing." },
+                { name: "Trataka (Gazing Meditation)", image: "images/trataka.jpg", how: "Stare at a candle flame to improve focus.", benefits: "Strengthens eyesight, increases concentration." },
+                { name: "Binaural Beats Meditation", image: "images/binaural.jpg", how: "Listen to sound frequencies to alter brainwaves.", benefits: "Enhances relaxation, improves sleep." },
+                { name: "Breath Awareness Meditation", image: "images/breath.jpg", how: "Simply focus on natural breathing.", benefits: "Calms the mind, improves focus." },
+                { name: "Qigong Meditation", image: "images/qigong.jpg", how: "Use slow movements and breath control.", benefits: "Enhances energy flow, reduces stress." },
+                { name: "Self-Inquiry Meditation", image: "images/selfinquiry.jpg", how: "Ask deep philosophical questions about self.", benefits: "Promotes self-awareness, deep insight." },
+                { name: "Visualization Meditation", image: "images/visualization.jpg", how: "Imagine peaceful places or positive outcomes.", benefits: "Boosts positivity, enhances relaxation." }
+            ];
+
+            document.getElementById("meditationList").innerHTML = meditations.map(med => `
+                <div class="card">
+                    <img src="${med.image}" alt="${med.name}">
+                    <div class="card-content">
+                        <h3>${med.name}</h3>
+                        <p><b>How to Perform:</b> ${med.how}</p>
+                        <p><b>Benefits:</b> ${med.benefits}</p>
+                    </div>
+                </div>
+            `).join("");
+
+        } catch (error) {
+            console.error("Error fetching user meditation goals:", error);
+        }
+    }
+</script>
+
+</body>
+</html>

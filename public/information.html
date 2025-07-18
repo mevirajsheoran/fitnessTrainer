@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("images/login.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .info-container {
+            background-color: rgba(255, 255, 255, 0.9); /* Slight opacity for better readability */
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            width: 575px;
+            max-width: 90%;
+            backdrop-filter: blur(10px);
+        }
+
+        .info-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .info-container label {
+            font-weight: bold;
+            display: block;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+
+        .info-container input[type="text"],
+        .info-container input[type="number"],
+        .info-container select {
+            width: 100%;
+            padding: 12px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        .info-container .checkbox-group {
+            margin: 10px 0;
+        }
+
+        .info-container .checkbox-group label {
+            font-weight: normal;
+            display: block;
+            margin: 5px 0;
+        }
+
+        .info-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        .info-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="info-container">
+        <h2>Personal Information</h2>
+        <form action="/submit-info" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="fullname" placeholder="Enter your name" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+            <label for="weight">Weight:</label>
+            <input type="number" id="weight" name="weight" placeholder="Enter your weight in kg" required>
+
+            <label for="height">Height:</label>
+            <input type="number" id="height" name="height" placeholder="Enter your height in cm" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="fitnesslevel">Fitness level:</label>
+            <select id="fitnesslevel" name="fitnesslevel" required>
+                <option value="">Select</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+
+            <label for="activitylevel">Activity level:</label>
+            <select id="activitylevel" name="activitylevel" required>
+                <option value="">Select</option>
+                <option value="low">Low</option>
+                <option value="moderate">Moderate</option>
+                <option value="high">High</option>
+            </select>
+
+            <label for="dietpreference">Diet preference:</label>
+            <select id="dietpreference" name="dietpreference" required>
+                <option value="">Select</option>
+                <option value="veg">Vegetarian</option>
+                <option value="nonVeg">Non-Vegetarian</option>
+            </select>
+
+            <label>Health conditions:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="healthconditions" value="asthma" class="health-checkbox" onclick="uncheckNone('health-none')"> Asthma</label>
+                <label><input type="checkbox" name="healthconditions" value="diabetes" class="health-checkbox" onclick="uncheckNone('health-none')"> Diabetes</label>
+                <label><input type="checkbox" name="healthconditions" value="hbp" class="health-checkbox" onclick="uncheckNone('health-none')"> High Blood Pressure</label>
+                <label><input type="checkbox" name="healthconditions" value="none" id="health-none" onclick="checkNone('health-checkbox')"> None</label>
+            </div>
+
+            <label>Injuries:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="injuries" value="kneePain" class="injury-checkbox" onclick="uncheckNone('injury-none')"> Knee Pain</label>
+                <label><input type="checkbox" name="injuries" value="elbowPain" class="injury-checkbox" onclick="uncheckNone('injury-none')"> Elbow Pain</label>
+                <label><input type="checkbox" name="injuries" value="lowerBack" class="injury-checkbox" onclick="uncheckNone('injury-none')"> Lower Back Pain</label>
+                <label><input type="checkbox" name="injuries" value="shoulderPain" class="injury-checkbox" onclick="uncheckNone('injury-none')"> Shoulder Pain</label>
+                <label><input type="checkbox" name="injuries" value="none" id="injury-none" onclick="checkNone('injury-checkbox')"> None</label>
+            </div>
+
+
+            <input type="hidden" name="email" value="email">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function checkNone(className) {
+            document.querySelectorAll(`.${className}`).forEach(cb => cb.checked = false);
+        }
+        
+        function uncheckNone(noneId) {
+            document.getElementById(noneId).checked = false;
+        }
+        </script>
+</body>
+</html>

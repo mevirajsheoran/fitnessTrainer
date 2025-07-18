@@ -1,0 +1,548 @@
+Plan ID,BMI Range,BMI Category,Goal,Day,Exercise,Sets,Reps,Focus
+1,<18.5,Underweight,Powerlifting,Monday,Squat,4,8,"Moderate weight, controlled"
+1,<18.5,Underweight,Powerlifting,Monday,Romanian Deadlift,4,10,"Form focus, moderate load"
+1,<18.5,Underweight,Powerlifting,Monday,Bulgarian Split Squat,3,                                12 (each leg),Balance & stability
+1,<18.5,Underweight,Powerlifting,Monday,Push-Ups,4,15,Add weight if needed
+1,<18.5,Underweight,Powerlifting,Monday,Plank,4,1 min hold,Core strength
+1,<18.5,Underweight,Powerlifting,Tuesday,Bench Press,4,8,Moderate-heavy for growth
+1,<18.5,Underweight,Powerlifting,Tuesday,Incline Dumbbell Press,4,10,Chest development
+1,<18.5,Underweight,Powerlifting,Tuesday,Barbell Rows,4,10,Upper back thickness
+1,<18.5,Underweight,Powerlifting,Tuesday,Bicep Curls,4,12,Hypertrophy focus
+1,<18.5,Underweight,Powerlifting,Tuesday,Russian Twists,4,20,Core rotation
+1,<18.5,Underweight,Powerlifting,Wednesday,Rest/Active Recovery,-,-,"Stretching, mobility work"
+1,<18.5,Underweight,Powerlifting,Thursday,Deadlift,4,6,Heavy but safe for form
+1,<18.5,Underweight,Powerlifting,Thursday,Pull-Ups,4,Max,Assistance if needed
+1,<18.5,Underweight,Powerlifting,Thursday,Lunges,4,10 (each leg),Controlled tempo
+1,<18.5,Underweight,Powerlifting,Thursday,Overhead Press,4,8,Moderate load
+1,<18.5,Underweight,Powerlifting,Thursday,Side Planks,4,30 sec each side,Oblique strength
+1,<18.5,Underweight,Powerlifting,Friday,Full-Body Circuit,3,Rounds,"Squat, Push-Up, Row, Lunge, Plank"
+1,<18.5,Underweight,Powerlifting,Saturday/Sunday,Rest or Light Activity,-,-,"Walking, yoga, stretching"
+2,18.5 – 24.9,Normal Weight,Powerlifting,Monday,Squat,5,5,Strength focus
+2,18.5 – 24.10,Normal Weight,Powerlifting,Monday,Front Squat,4,6,Quad dominance
+2,18.5 – 24.11,Normal Weight,Powerlifting,Monday,Leg Press,4,10,Hypertrophy support
+2,18.5 – 24.12,Normal Weight,Powerlifting,Monday,Hanging Leg Raises,4,15,Core control
+2,18.5 – 24.13,Normal Weight,Powerlifting,Tuesday,Bench Press,5,5,"Heavy load, progressive overload"
+2,18.5 – 24.14,Normal Weight,Powerlifting,Tuesday,Dumbbell Flys,4,4,Chest isolation
+2,18.5 – 24.15,Normal Weight,Powerlifting,Tuesday,Bent-Over Rows,4,8,Back thickness
+2,18.5 – 24.16,Normal Weight,Powerlifting,Tuesday,Tricep Dips,4,12,Bodyweight or weighted
+2,18.5 – 24.17,Normal Weight,Powerlifting,Wednesday,Active Recovery,-,-,"Mobility, yoga"
+2,18.5 – 24.18,Normal Weight,Powerlifting,Thursday,Deadlift,5,5,Heavy pulling focus
+2,18.5 – 24.19,Normal Weight,Powerlifting,Thursday,Barbell Shrugs,4,10,Trap development
+2,18.5 – 24.20,Normal Weight,Powerlifting,Thursday,Pull-Ups,4,Max,Bodyweight mastery
+2,18.5 – 24.21,Normal Weight,Powerlifting,Thursday,Farmer’s Carry,4,30 sec hold,Grip & core strength
+2,18.5 – 24.22,Normal Weight,Powerlifting,Friday,Overhead Press,4,6,Shoulder strength
+2,18.5 – 24.23,Normal Weight,Powerlifting,Friday,Lateral Raises,4,12,Deltoid isolation
+2,18.5 – 24.24,Normal Weight,Powerlifting,Friday,Core Circuit,3,Rounds,"Russian Twists, Planks, V-Ups"
+2,18.5 – 24.25,Normal Weight,Powerlifting,Saturday / Sunday,Rest or Cardio,-,-,Optional moderate-intensity
+3,25-29.9,Overweight,Powerlifting,Monday,Squat,5,5,Strength focus
+3,25-29.9,Overweight,Powerlifting,Monday,Romanian Deadlift,4,8,Hamstring development
+3,25-29.9,Overweight,Powerlifting,Monday,Leg Press,4,10,Quad and glute activation
+3,25-29.9,Overweight,Powerlifting,Tuesday,Bench Press,5,5,Upper body strength
+3,25-29.9,Overweight,Powerlifting,Tuesday,Incline Dumbbell Press,4,10,Chest hypertrophy
+3,25-29.9,Overweight,Powerlifting,Tuesday,Barbell Rows,4,8,Back thickness
+3,25-29.9,Overweight,Powerlifting,Wednesday,Rest/Active Recovery,-,-,Mobility and stretching
+3,25-29.9,Overweight,Powerlifting,Thursday,Deadlift,5,5,Posterior chain strength
+3,25-29.9,Overweight,Powerlifting,Thursday,Pull-Ups,4,Max,Upper body pulling strength
+3,25-29.9,Overweight,Powerlifting,Thursday,Lunges,4,10,Leg endurance and stability
+3,25-29.9,Overweight,Powerlifting,Friday,Overhead Press,4,8,Shoulder strength
+3,25-29.9,Overweight,Powerlifting,Friday,Dips,4,Max,Triceps and chest engagement
+3,25-29.9,Overweight,Powerlifting,Saturday,Full-Body Circuit,3,Rounds,Conditioning and endurance
+3,25-29.9,Overweight,Powerlifting,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Monday,Squat,5,5,Strength focus
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Monday,Romanian Deadlift,4,8,Hamstring development
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Monday,Leg Press,4,10,Quad and glute activation
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Tuesday,Bench Press,5,5,Upper body strength
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Tuesday,Incline Dumbbell Press,4,10,Chest hypertrophy
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Tuesday,Barbell Rows,4,8,Back thickness
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Wednesday,Rest/Active Recovery,-,-,Mobility and stretching
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Thursday,Deadlift,5,5,Posterior chain strength
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Thursday,Pull-Ups,4,Max,Upper body pulling strength
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Thursday,Lunges,4,10,Leg endurance and stability
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Friday,Overhead Press,4,8,Shoulder strength
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Friday,Dips,4,Max,Triceps and chest engagement
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Saturday,Full-Body Circuit,3,Rounds,Conditioning and endurance
+4,30-34.9,Obesity Class 1 (Moderate),Powerlifting,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Monday,Squat,5,5,Strength focus
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Monday,Romanian Deadlift,4,8,Hamstring development
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Monday,Leg Press,4,10,Quad and glute activation
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Tuesday,Bench Press,5,5,Upper body strength
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Tuesday,Incline Dumbbell Press,4,10,Chest hypertrophy
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Tuesday,Barbell Rows,4,8,Back thickness
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Wednesday,Rest/Active Recovery,-,-,Mobility and stretching
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Thursday,Deadlift,5,5,Posterior chain strength
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Thursday,Pull-Ups,4,Max,Upper body pulling strength
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Thursday,Lunges,4,10,Leg endurance and stability
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Friday,Overhead Press,4,8,Shoulder strength
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Friday,Dips,4,Max,Triceps and chest engagement
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Saturday,Full-Body Circuit,3,Rounds,Conditioning and endurance
+5,35-39.9,Obesity Class 2 (Severe),Powerlifting,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Monday,Squat,5,5,Strength focus
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Monday,Romanian Deadlift,4,8,Hamstring development
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Monday,Leg Press,4,10,Quad and glute activation
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Tuesday,Bench Press,5,5,Upper body strength
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Tuesday,Incline Dumbbell Press,4,10,Chest hypertrophy
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Tuesday,Barbell Rows,4,8,Back thickness
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Wednesday,Rest/Active Recovery,-,-,Mobility and stretching
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Thursday,Deadlift,5,5,Posterior chain strength
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Thursday,Pull-Ups,4,Max,Upper body pulling strength
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Thursday,Lunges,4,10,Leg endurance and stability
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Friday,Overhead Press,4,8,Shoulder strength
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Friday,Dips,4,Max,Triceps and chest engagement
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Saturday,Full-Body Circuit,3,Rounds,Conditioning and endurance
+6,40+,Obesity Class 3 (Very Severe),Powerlifting,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+7,<18.5,Underweight,Weight Loss,Monday,Treadmill Walk/Run,4,30 min,Cardio endurance
+7,<18.5,Underweight,Weight Loss,Monday,Bodyweight Squats,4,15,Lower body activation
+7,<18.5,Underweight,Weight Loss,Monday,Dumbbell Shoulder Press,3,12,Upper body strength
+7,<18.5,Underweight,Weight Loss,Tuesday,Jump Rope,4,3 min rounds,Cardio conditioning
+7,<18.5,Underweight,Weight Loss,Tuesday,Lunges,3,12,Leg endurance and toning
+7,<18.5,Underweight,Weight Loss,Tuesday,Push-Ups,4,15,Upper body engagement
+7,<18.5,Underweight,Weight Loss,Wednesday,Cycling,4,30 min,Cardio endurance
+7,<18.5,Underweight,Weight Loss,Wednesday,Plank,4,1 min hold,Core stability
+7,<18.5,Underweight,Weight Loss,Thursday,Rowing Machine,4,20 min,Full-body cardio
+7,<18.5,Underweight,Weight Loss,Thursday,Deadlifts,3,8,Strength and fat burn
+7,<18.5,Underweight,Weight Loss,Thursday,Russian Twists,4,20,Core rotation
+7,<18.5,Underweight,Weight Loss,Friday,Burpees,4,12,Full-body conditioning
+7,<18.5,Underweight,Weight Loss,Friday,Jump Squats,3,15,Leg power
+7,<18.5,Underweight,Weight Loss,Friday,Dumbbell Rows,4,10,Back strength
+7,<18.5,Underweight,Weight Loss,Saturday,Full-Body HIIT,3,Rounds,Fat-burning workout
+7,<18.5,Underweight,Weight Loss,Sunday,Rest or Light Yoga,-,-,Recovery and flexibility
+8,18.5-24.9,Normal Weight,Weight Loss,Monday,Treadmill Walk/Run,4,30 min,Cardio endurance
+8,18.5-24.9,Normal Weight,Weight Loss,Monday,Bodyweight Squats,4,15,Lower body activation
+8,18.5-24.9,Normal Weight,Weight Loss,Monday,Dumbbell Shoulder Press,3,12,Upper body strength
+8,18.5-24.9,Normal Weight,Weight Loss,Tuesday,Jump Rope,4,3 min rounds,Cardio conditioning
+8,18.5-24.9,Normal Weight,Weight Loss,Tuesday,Lunges,3,12,Leg endurance and toning
+8,18.5-24.9,Normal Weight,Weight Loss,Tuesday,Push-Ups,4,15,Upper body engagement
+8,18.5-24.9,Normal Weight,Weight Loss,Wednesday,Cycling,4,30 min,Cardio endurance
+8,18.5-24.9,Normal Weight,Weight Loss,Wednesday,Plank,4,1 min hold,Core stability
+8,18.5-24.9,Normal Weight,Weight Loss,Thursday,Rowing Machine,4,20 min,Full-body cardio
+8,18.5-24.9,Normal Weight,Weight Loss,Thursday,Deadlifts,3,8,Strength and fat burn
+8,18.5-24.9,Normal Weight,Weight Loss,Thursday,Russian Twists,4,20,Core rotation
+8,18.5-24.9,Normal Weight,Weight Loss,Friday,Burpees,4,12,Full-body conditioning
+8,18.5-24.9,Normal Weight,Weight Loss,Friday,Jump Squats,3,15,Leg power
+8,18.5-24.9,Normal Weight,Weight Loss,Friday,Dumbbell Rows,4,10,Back strength
+8,18.5-24.9,Normal Weight,Weight Loss,Saturday,Full-Body HIIT,3,Rounds,Fat-burning workout
+8,18.5-24.9,Normal Weight,Weight Loss,Sunday,Rest or Light Yoga,-,-,Recovery and flexibility
+9,25-29.9,Overweight,Weight Loss,Monday,Treadmill Walk/Run,4,30 min,Cardio endurance
+9,25-29.9,Overweight,Weight Loss,Monday,Bodyweight Squats,4,15,Lower body activation
+9,25-29.9,Overweight,Weight Loss,Monday,Dumbbell Shoulder Press,3,12,Upper body strength
+9,25-29.9,Overweight,Weight Loss,Tuesday,Jump Rope,4,3 min rounds,Cardio conditioning
+9,25-29.9,Overweight,Weight Loss,Tuesday,Lunges,3,12,Leg endurance and toning
+9,25-29.9,Overweight,Weight Loss,Tuesday,Push-Ups,4,15,Upper body engagement
+9,25-29.9,Overweight,Weight Loss,Wednesday,Cycling,4,30 min,Cardio endurance
+9,25-29.9,Overweight,Weight Loss,Wednesday,Plank,4,1 min hold,Core stability
+9,25-29.9,Overweight,Weight Loss,Thursday,Rowing Machine,4,20 min,Full-body cardio
+9,25-29.9,Overweight,Weight Loss,Thursday,Deadlifts,3,8,Strength and fat burn
+9,25-29.9,Overweight,Weight Loss,Thursday,Russian Twists,4,20,Core rotation
+9,25-29.9,Overweight,Weight Loss,Friday,Burpees,4,12,Full-body conditioning
+9,25-29.9,Overweight,Weight Loss,Friday,Jump Squats,3,15,Leg power
+9,25-29.9,Overweight,Weight Loss,Friday,Dumbbell Rows,4,10,Back strength
+9,25-29.9,Overweight,Weight Loss,Saturday,Full-Body HIIT,3,Rounds,Fat-burning workout
+9,25-29.9,Overweight,Weight Loss,Sunday,Rest or Light Yoga,-,-,Recovery and flexibility
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Monday,Treadmill Walk/Run,4,30 min,Cardio endurance
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Monday,Bodyweight Squats,4,15,Lower body activation
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Monday,Dumbbell Shoulder Press,3,12,Upper body strength
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Tuesday,Jump Rope,4,3 min rounds,Cardio conditioning
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Tuesday,Lunges,3,12,Leg endurance and toning
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Tuesday,Push-Ups,4,15,Upper body engagement
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Wednesday,Cycling,4,30 min,Cardio endurance
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Wednesday,Plank,4,1 min hold,Core stability
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Thursday,Rowing Machine,4,20 min,Full-body cardio
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Thursday,Deadlifts,3,8,Strength and fat burn
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Thursday,Russian Twists,4,20,Core rotation
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Friday,Burpees,4,12,Full-body conditioning
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Friday,Jump Squats,3,15,Leg power
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Friday,Dumbbell Rows,4,10,Back strength
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Saturday,Full-Body HIIT,3,Rounds,Fat-burning workout
+10,30-34.9,Obesity Class 1 (Moderate),Weight Loss,Sunday,Rest or Light Yoga,-,-,Recovery and flexibility
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Monday,Treadmill Walk/Run,4,30 min,Cardio endurance
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Monday,Bodyweight Squats,4,15,Lower body activation
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Monday,Dumbbell Shoulder Press,3,12,Upper body strength
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Tuesday,Jump Rope,4,3 min rounds,Cardio conditioning
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Tuesday,Lunges,3,12,Leg endurance and toning
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Tuesday,Push-Ups,4,15,Upper body engagement
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Wednesday,Cycling,4,30 min,Cardio endurance
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Wednesday,Plank,4,1 min hold,Core stability
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Thursday,Rowing Machine,4,20 min,Full-body cardio
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Thursday,Deadlifts,3,8,Strength and fat burn
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Thursday,Russian Twists,4,20,Core rotation
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Friday,Burpees,4,12,Full-body conditioning
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Friday,Jump Squats,3,15,Leg power
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Friday,Dumbbell Rows,4,10,Back strength
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Saturday,Full-Body HIIT,3,Rounds,Fat-burning workout
+11,35-39.9,Obesity Class 2 (Severe),Weight Loss,Sunday,Rest or Light Yoga,-,-,Recovery and flexibility
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Monday,Treadmill Walk/Run,4,30 min,Cardio endurance
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Monday,Bodyweight Squats,4,15,Lower body activation
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Monday,Dumbbell Shoulder Press,3,12,Upper body strength
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Tuesday,Jump Rope,4,3 min rounds,Cardio conditioning
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Tuesday,Lunges,3,12,Leg endurance and toning
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Tuesday,Push-Ups,4,15,Upper body engagement
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Wednesday,Cycling,4,30 min,Cardio endurance
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Wednesday,Plank,4,1 min hold,Core stability
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Thursday,Rowing Machine,4,20 min,Full-body cardio
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Thursday,Deadlifts,3,8,Strength and fat burn
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Thursday,Russian Twists,4,20,Core rotation
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Friday,Burpees,4,12,Full-body conditioning
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Friday,Jump Squats,3,15,Leg power
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Friday,Dumbbell Rows,4,10,Back strength
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Saturday,Full-Body HIIT,3,Rounds,Fat-burning workout
+12,40+,Obesity Class 3 (Very Severe),Weight Loss,Sunday,Rest or Light Yoga,-,-,Recovery and flexibility
+13,<18.5,Underweight,Weight Gain,Monday,Squat,5,8,Leg and core strength
+13,<18.5,Underweight,Weight Gain,Monday,Leg Press,4,12,Quad and hamstring hypertrophy
+13,<18.5,Underweight,Weight Gain,Monday,Calf Raises,4,15,Lower leg development
+13,<18.5,Underweight,Weight Gain,Tuesday,Bench Press,5,8,Upper body strength
+13,<18.5,Underweight,Weight Gain,Tuesday,Incline Dumbbell Press,4,10,Chest and shoulder activation
+13,<18.5,Underweight,Weight Gain,Tuesday,Triceps Dips,4,12,Arm hypertrophy
+13,<18.5,Underweight,Weight Gain,Wednesday,Deadlift,5,6,Full-body strength and power
+13,<18.5,Underweight,Weight Gain,Wednesday,Pull-Ups,4,Max,Upper back and biceps
+13,<18.5,Underweight,Weight Gain,Wednesday,Face Pulls,4,15,Shoulder stability and growth
+13,<18.5,Underweight,Weight Gain,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+13,<18.5,Underweight,Weight Gain,Friday,Overhead Press,4,8,Shoulder and triceps strength
+13,<18.5,Underweight,Weight Gain,Friday,Barbell Rows,4,10,Back thickness and posture improvement
+13,<18.5,Underweight,Weight Gain,Friday,Hammer Curls,4,12,Arm and grip strength
+13,<18.5,Underweight,Weight Gain,Saturday,Full-Body Hypertrophy Circuit,3,Rounds,Muscle growth and endurance
+13,<18.5,Underweight,Weight Gain,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+14,18.5-24.9,Normal Weight,Weight Gain,Monday,Squat,5,8,Leg and core strength
+14,18.5-24.9,Normal Weight,Weight Gain,Monday,Leg Press,4,12,Quad and hamstring hypertrophy
+14,18.5-24.9,Normal Weight,Weight Gain,Monday,Calf Raises,4,15,Lower leg development
+14,18.5-24.9,Normal Weight,Weight Gain,Tuesday,Bench Press,5,8,Upper body strength
+14,18.5-24.9,Normal Weight,Weight Gain,Tuesday,Incline Dumbbell Press,4,10,Chest and shoulder activation
+14,18.5-24.9,Normal Weight,Weight Gain,Tuesday,Triceps Dips,4,12,Arm hypertrophy
+14,18.5-24.9,Normal Weight,Weight Gain,Wednesday,Deadlift,5,6,Full-body strength and power
+14,18.5-24.9,Normal Weight,Weight Gain,Wednesday,Pull-Ups,4,Max,Upper back and biceps
+14,18.5-24.9,Normal Weight,Weight Gain,Wednesday,Face Pulls,4,15,Shoulder stability and growth
+14,18.5-24.9,Normal Weight,Weight Gain,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+14,18.5-24.9,Normal Weight,Weight Gain,Friday,Overhead Press,4,8,Shoulder and triceps strength
+14,18.5-24.9,Normal Weight,Weight Gain,Friday,Barbell Rows,4,10,Back thickness and posture improvement
+14,18.5-24.9,Normal Weight,Weight Gain,Friday,Hammer Curls,4,12,Arm and grip strength
+14,18.5-24.9,Normal Weight,Weight Gain,Saturday,Full-Body Hypertrophy Circuit,3,Rounds,Muscle growth and endurance
+14,18.5-24.9,Normal Weight,Weight Gain,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+15,25-29.9,Overweight,Weight Gain,Monday,Squat,5,8,Leg and core strength
+15,25-29.9,Overweight,Weight Gain,Monday,Leg Press,4,12,Quad and hamstring hypertrophy
+15,25-29.9,Overweight,Weight Gain,Monday,Calf Raises,4,15,Lower leg development
+15,25-29.9,Overweight,Weight Gain,Tuesday,Bench Press,5,8,Upper body strength
+15,25-29.9,Overweight,Weight Gain,Tuesday,Incline Dumbbell Press,4,10,Chest and shoulder activation
+15,25-29.9,Overweight,Weight Gain,Tuesday,Triceps Dips,4,12,Arm hypertrophy
+15,25-29.9,Overweight,Weight Gain,Wednesday,Deadlift,5,6,Full-body strength and power
+15,25-29.9,Overweight,Weight Gain,Wednesday,Pull-Ups,4,Max,Upper back and biceps
+15,25-29.9,Overweight,Weight Gain,Wednesday,Face Pulls,4,15,Shoulder stability and growth
+15,25-29.9,Overweight,Weight Gain,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+15,25-29.9,Overweight,Weight Gain,Friday,Overhead Press,4,8,Shoulder and triceps strength
+15,25-29.9,Overweight,Weight Gain,Friday,Barbell Rows,4,10,Back thickness and posture improvement
+15,25-29.9,Overweight,Weight Gain,Friday,Hammer Curls,4,12,Arm and grip strength
+15,25-29.9,Overweight,Weight Gain,Saturday,Full-Body Hypertrophy Circuit,3,Rounds,Muscle growth and endurance
+15,25-29.9,Overweight,Weight Gain,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Monday,Squat,5,8,Leg and core strength
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Monday,Leg Press,4,12,Quad and hamstring hypertrophy
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Monday,Calf Raises,4,15,Lower leg development
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Tuesday,Bench Press,5,8,Upper body strength
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Tuesday,Incline Dumbbell Press,4,10,Chest and shoulder activation
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Tuesday,Triceps Dips,4,12,Arm hypertrophy
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Wednesday,Deadlift,5,6,Full-body strength and power
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Wednesday,Pull-Ups,4,Max,Upper back and biceps
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Wednesday,Face Pulls,4,15,Shoulder stability and growth
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Friday,Overhead Press,4,8,Shoulder and triceps strength
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Friday,Barbell Rows,4,10,Back thickness and posture improvement
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Friday,Hammer Curls,4,12,Arm and grip strength
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Saturday,Full-Body Hypertrophy Circuit,3,Rounds,Muscle growth and endurance
+16,30-34.9,Obesity Class 1 (Moderate),Weight Gain,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Monday,Squat,5,8,Leg and core strength
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Monday,Leg Press,4,12,Quad and hamstring hypertrophy
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Monday,Calf Raises,4,15,Lower leg development
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Tuesday,Bench Press,5,8,Upper body strength
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Tuesday,Incline Dumbbell Press,4,10,Chest and shoulder activation
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Tuesday,Triceps Dips,4,12,Arm hypertrophy
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Wednesday,Deadlift,5,6,Full-body strength and power
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Wednesday,Pull-Ups,4,Max,Upper back and biceps
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Wednesday,Face Pulls,4,15,Shoulder stability and growth
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Friday,Overhead Press,4,8,Shoulder and triceps strength
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Friday,Barbell Rows,4,10,Back thickness and posture improvement
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Friday,Hammer Curls,4,12,Arm and grip strength
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Saturday,Full-Body Hypertrophy Circuit,3,Rounds,Muscle growth and endurance
+17,35-39.9,Obesity Class 2 (Severe),Weight Gain,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Monday,Squat,5,8,Leg and core strength
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Monday,Leg Press,4,12,Quad and hamstring hypertrophy
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Monday,Calf Raises,4,15,Lower leg development
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Tuesday,Bench Press,5,8,Upper body strength
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Tuesday,Incline Dumbbell Press,4,10,Chest and shoulder activation
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Tuesday,Triceps Dips,4,12,Arm hypertrophy
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Wednesday,Deadlift,5,6,Full-body strength and power
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Wednesday,Pull-Ups,4,Max,Upper back and biceps
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Wednesday,Face Pulls,4,15,Shoulder stability and growth
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Friday,Overhead Press,4,8,Shoulder and triceps strength
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Friday,Barbell Rows,4,10,Back thickness and posture improvement
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Friday,Hammer Curls,4,12,Arm and grip strength
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Saturday,Full-Body Hypertrophy Circuit,3,Rounds,Muscle growth and endurance
+18,40+,Obesity Class 3 (Very Severe),Weight Gain,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+19,<18.5,Underweight,Muscle Building,Monday,Barbell Squat,5,8,Leg and core strength
+19,<18.5,Underweight,Muscle Building,Monday,Leg Press,4,12,Quad and hamstring development
+19,<18.5,Underweight,Muscle Building,Monday,Seated Calf Raises,4,15,Lower leg hypertrophy
+19,<18.5,Underweight,Muscle Building,Tuesday,Flat Bench Press,5,8,Chest and upper body strength
+19,<18.5,Underweight,Muscle Building,Tuesday,Incline Dumbbell Press,4,10,Upper chest hypertrophy
+19,<18.5,Underweight,Muscle Building,Tuesday,Cable Flys,4,12,Chest muscle isolation
+19,<18.5,Underweight,Muscle Building,Wednesday,Deadlift,5,6,Full-body strength and power
+19,<18.5,Underweight,Muscle Building,Wednesday,Lat Pulldown,4,10,Back and biceps development
+19,<18.5,Underweight,Muscle Building,Wednesday,Face Pulls,4,15,Shoulder and posture correction
+19,<18.5,Underweight,Muscle Building,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+19,<18.5,Underweight,Muscle Building,Friday,Military Press,4,8,Shoulder and triceps strength
+19,<18.5,Underweight,Muscle Building,Friday,Dumbbell Lateral Raises,4,12,Shoulder width and hypertrophy
+19,<18.5,Underweight,Muscle Building,Friday,Barbell Rows,4,10,Back thickness and core strength
+19,<18.5,Underweight,Muscle Building,Saturday,Arms & Core Circuit,3,Rounds,Muscle definition and endurance
+19,<18.5,Underweight,Muscle Building,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+20,18.5-24.9,Normal Weight,Muscle Building,Monday,Barbell Squat,5,8,Leg and core strength
+20,18.5-24.9,Normal Weight,Muscle Building,Monday,Leg Press,4,12,Quad and hamstring development
+20,18.5-24.9,Normal Weight,Muscle Building,Monday,Seated Calf Raises,4,15,Lower leg hypertrophy
+20,18.5-24.9,Normal Weight,Muscle Building,Tuesday,Flat Bench Press,5,8,Chest and upper body strength
+20,18.5-24.9,Normal Weight,Muscle Building,Tuesday,Incline Dumbbell Press,4,10,Upper chest hypertrophy
+20,18.5-24.9,Normal Weight,Muscle Building,Tuesday,Cable Flys,4,12,Chest muscle isolation
+20,18.5-24.9,Normal Weight,Muscle Building,Wednesday,Deadlift,5,6,Full-body strength and power
+20,18.5-24.9,Normal Weight,Muscle Building,Wednesday,Lat Pulldown,4,10,Back and biceps development
+20,18.5-24.9,Normal Weight,Muscle Building,Wednesday,Face Pulls,4,15,Shoulder and posture correction
+20,18.5-24.9,Normal Weight,Muscle Building,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+20,18.5-24.9,Normal Weight,Muscle Building,Friday,Military Press,4,8,Shoulder and triceps strength
+20,18.5-24.9,Normal Weight,Muscle Building,Friday,Dumbbell Lateral Raises,4,12,Shoulder width and hypertrophy
+20,18.5-24.9,Normal Weight,Muscle Building,Friday,Barbell Rows,4,10,Back thickness and core strength
+20,18.5-24.9,Normal Weight,Muscle Building,Saturday,Arms & Core Circuit,3,Rounds,Muscle definition and endurance
+20,18.5-24.9,Normal Weight,Muscle Building,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+21,25-29.9,Overweight,Muscle Building,Monday,Barbell Squat,5,8,Leg and core strength
+21,25-29.9,Overweight,Muscle Building,Monday,Leg Press,4,12,Quad and hamstring development
+21,25-29.9,Overweight,Muscle Building,Monday,Seated Calf Raises,4,15,Lower leg hypertrophy
+21,25-29.9,Overweight,Muscle Building,Tuesday,Flat Bench Press,5,8,Chest and upper body strength
+21,25-29.9,Overweight,Muscle Building,Tuesday,Incline Dumbbell Press,4,10,Upper chest hypertrophy
+21,25-29.9,Overweight,Muscle Building,Tuesday,Cable Flys,4,12,Chest muscle isolation
+21,25-29.9,Overweight,Muscle Building,Wednesday,Deadlift,5,6,Full-body strength and power
+21,25-29.9,Overweight,Muscle Building,Wednesday,Lat Pulldown,4,10,Back and biceps development
+21,25-29.9,Overweight,Muscle Building,Wednesday,Face Pulls,4,15,Shoulder and posture correction
+21,25-29.9,Overweight,Muscle Building,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+21,25-29.9,Overweight,Muscle Building,Friday,Military Press,4,8,Shoulder and triceps strength
+21,25-29.9,Overweight,Muscle Building,Friday,Dumbbell Lateral Raises,4,12,Shoulder width and hypertrophy
+21,25-29.9,Overweight,Muscle Building,Friday,Barbell Rows,4,10,Back thickness and core strength
+21,25-29.9,Overweight,Muscle Building,Saturday,Arms & Core Circuit,3,Rounds,Muscle definition and endurance
+21,25-29.9,Overweight,Muscle Building,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Monday,Barbell Squat,5,8,Leg and core strength
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Monday,Leg Press,4,12,Quad and hamstring development
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Monday,Seated Calf Raises,4,15,Lower leg hypertrophy
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Tuesday,Flat Bench Press,5,8,Chest and upper body strength
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Tuesday,Incline Dumbbell Press,4,10,Upper chest hypertrophy
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Tuesday,Cable Flys,4,12,Chest muscle isolation
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Wednesday,Deadlift,5,6,Full-body strength and power
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Wednesday,Lat Pulldown,4,10,Back and biceps development
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Wednesday,Face Pulls,4,15,Shoulder and posture correction
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Friday,Military Press,4,8,Shoulder and triceps strength
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Friday,Dumbbell Lateral Raises,4,12,Shoulder width and hypertrophy
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Friday,Barbell Rows,4,10,Back thickness and core strength
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Saturday,Arms & Core Circuit,3,Rounds,Muscle definition and endurance
+22,30-34.9,Obesity Class 1 (Moderate),Muscle Building,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Monday,Barbell Squat,5,8,Leg and core strength
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Monday,Leg Press,4,12,Quad and hamstring development
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Monday,Seated Calf Raises,4,15,Lower leg hypertrophy
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Tuesday,Flat Bench Press,5,8,Chest and upper body strength
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Tuesday,Incline Dumbbell Press,4,10,Upper chest hypertrophy
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Tuesday,Cable Flys,4,12,Chest muscle isolation
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Wednesday,Deadlift,5,6,Full-body strength and power
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Wednesday,Lat Pulldown,4,10,Back and biceps development
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Wednesday,Face Pulls,4,15,Shoulder and posture correction
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Friday,Military Press,4,8,Shoulder and triceps strength
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Friday,Dumbbell Lateral Raises,4,12,Shoulder width and hypertrophy
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Friday,Barbell Rows,4,10,Back thickness and core strength
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Saturday,Arms & Core Circuit,3,Rounds,Muscle definition and endurance
+23,35-39.9,Obesity Class 2 (Severe),Muscle Building,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Monday,Barbell Squat,5,8,Leg and core strength
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Monday,Leg Press,4,12,Quad and hamstring development
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Monday,Seated Calf Raises,4,15,Lower leg hypertrophy
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Tuesday,Flat Bench Press,5,8,Chest and upper body strength
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Tuesday,Incline Dumbbell Press,4,10,Upper chest hypertrophy
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Tuesday,Cable Flys,4,12,Chest muscle isolation
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Wednesday,Deadlift,5,6,Full-body strength and power
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Wednesday,Lat Pulldown,4,10,Back and biceps development
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Wednesday,Face Pulls,4,15,Shoulder and posture correction
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Friday,Military Press,4,8,Shoulder and triceps strength
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Friday,Dumbbell Lateral Raises,4,12,Shoulder width and hypertrophy
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Friday,Barbell Rows,4,10,Back thickness and core strength
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Saturday,Arms & Core Circuit,3,Rounds,Muscle definition and endurance
+24,40+,Obesity Class 3 (Very Severe),Muscle Building,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+25,<18.5,Underweight,Endurance Training,Monday,Running (Moderate Pace),1,30 min,Cardio endurance
+25,<18.5,Underweight,Endurance Training,Monday,Jump Rope,4,3 min rounds,Agility and stamina
+25,<18.5,Underweight,Endurance Training,Monday,Bodyweight Squats,4,20,Lower body endurance
+25,<18.5,Underweight,Endurance Training,Tuesday,Cycling,1,40 min,Aerobic endurance
+25,<18.5,Underweight,Endurance Training,Tuesday,Push-Ups,4,15,Upper body stamina
+25,<18.5,Underweight,Endurance Training,Tuesday,Plank,4,1 min hold,Core endurance
+25,<18.5,Underweight,Endurance Training,Wednesday,Rowing Machine,1,30 min,Full-body endurance
+25,<18.5,Underweight,Endurance Training,Wednesday,Lunges,4,12,Leg endurance
+25,<18.5,Underweight,Endurance Training,Wednesday,Russian Twists,4,20,Core and obliques
+25,<18.5,Underweight,Endurance Training,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+25,<18.5,Underweight,Endurance Training,Friday,Swimming,1,30 min,Full-body endurance
+25,<18.5,Underweight,Endurance Training,Friday,Dumbbell Shoulder Press,4,12,Upper body endurance
+25,<18.5,Underweight,Endurance Training,Friday,Jump Squats,3,15,Leg power and stamina
+25,<18.5,Underweight,Endurance Training,Saturday,HIIT Circuit,3,Rounds,Fat-burning and endurance
+25,<18.5,Underweight,Endurance Training,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+26,18.5-24.9,Normal Weight,Endurance Training,Monday,Running (Moderate Pace),1,30 min,Cardio endurance
+26,18.5-24.9,Normal Weight,Endurance Training,Monday,Jump Rope,4,3 min rounds,Agility and stamina
+26,18.5-24.9,Normal Weight,Endurance Training,Monday,Bodyweight Squats,4,20,Lower body endurance
+26,18.5-24.9,Normal Weight,Endurance Training,Tuesday,Cycling,1,40 min,Aerobic endurance
+26,18.5-24.9,Normal Weight,Endurance Training,Tuesday,Push-Ups,4,15,Upper body stamina
+26,18.5-24.9,Normal Weight,Endurance Training,Tuesday,Plank,4,1 min hold,Core endurance
+26,18.5-24.9,Normal Weight,Endurance Training,Wednesday,Rowing Machine,1,30 min,Full-body endurance
+26,18.5-24.9,Normal Weight,Endurance Training,Wednesday,Lunges,4,12,Leg endurance
+26,18.5-24.9,Normal Weight,Endurance Training,Wednesday,Russian Twists,4,20,Core and obliques
+26,18.5-24.9,Normal Weight,Endurance Training,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+26,18.5-24.9,Normal Weight,Endurance Training,Friday,Swimming,1,30 min,Full-body endurance
+26,18.5-24.9,Normal Weight,Endurance Training,Friday,Dumbbell Shoulder Press,4,12,Upper body endurance
+26,18.5-24.9,Normal Weight,Endurance Training,Friday,Jump Squats,3,15,Leg power and stamina
+26,18.5-24.9,Normal Weight,Endurance Training,Saturday,HIIT Circuit,3,Rounds,Fat-burning and endurance
+26,18.5-24.9,Normal Weight,Endurance Training,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+27,25-29.9,Overweight,Endurance Training,Monday,Running (Moderate Pace),1,30 min,Cardio endurance
+27,25-29.9,Overweight,Endurance Training,Monday,Jump Rope,4,3 min rounds,Agility and stamina
+27,25-29.9,Overweight,Endurance Training,Monday,Bodyweight Squats,4,20,Lower body endurance
+27,25-29.9,Overweight,Endurance Training,Tuesday,Cycling,1,40 min,Aerobic endurance
+27,25-29.9,Overweight,Endurance Training,Tuesday,Push-Ups,4,15,Upper body stamina
+27,25-29.9,Overweight,Endurance Training,Tuesday,Plank,4,1 min hold,Core endurance
+27,25-29.9,Overweight,Endurance Training,Wednesday,Rowing Machine,1,30 min,Full-body endurance
+27,25-29.9,Overweight,Endurance Training,Wednesday,Lunges,4,12,Leg endurance
+27,25-29.9,Overweight,Endurance Training,Wednesday,Russian Twists,4,20,Core and obliques
+27,25-29.9,Overweight,Endurance Training,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+27,25-29.9,Overweight,Endurance Training,Friday,Swimming,1,30 min,Full-body endurance
+27,25-29.9,Overweight,Endurance Training,Friday,Dumbbell Shoulder Press,4,12,Upper body endurance
+27,25-29.9,Overweight,Endurance Training,Friday,Jump Squats,3,15,Leg power and stamina
+27,25-29.9,Overweight,Endurance Training,Saturday,HIIT Circuit,3,Rounds,Fat-burning and endurance
+27,25-29.9,Overweight,Endurance Training,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Monday,Running (Moderate Pace),1,30 min,Cardio endurance
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Monday,Jump Rope,4,3 min rounds,Agility and stamina
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Monday,Bodyweight Squats,4,20,Lower body endurance
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Tuesday,Cycling,1,40 min,Aerobic endurance
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Tuesday,Push-Ups,4,15,Upper body stamina
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Tuesday,Plank,4,1 min hold,Core endurance
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Wednesday,Rowing Machine,1,30 min,Full-body endurance
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Wednesday,Lunges,4,12,Leg endurance
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Wednesday,Russian Twists,4,20,Core and obliques
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Friday,Swimming,1,30 min,Full-body endurance
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Friday,Dumbbell Shoulder Press,4,12,Upper body endurance
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Friday,Jump Squats,3,15,Leg power and stamina
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Saturday,HIIT Circuit,3,Rounds,Fat-burning and endurance
+28,30-34.9,Obesity Class 1 (Moderate),Endurance Training,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Monday,Running (Moderate Pace),1,30 min,Cardio endurance
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Monday,Jump Rope,4,3 min rounds,Agility and stamina
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Monday,Bodyweight Squats,4,20,Lower body endurance
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Tuesday,Cycling,1,40 min,Aerobic endurance
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Tuesday,Push-Ups,4,15,Upper body stamina
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Tuesday,Plank,4,1 min hold,Core endurance
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Wednesday,Rowing Machine,1,30 min,Full-body endurance
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Wednesday,Lunges,4,12,Leg endurance
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Wednesday,Russian Twists,4,20,Core and obliques
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Friday,Swimming,1,30 min,Full-body endurance
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Friday,Dumbbell Shoulder Press,4,12,Upper body endurance
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Friday,Jump Squats,3,15,Leg power and stamina
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Saturday,HIIT Circuit,3,Rounds,Fat-burning and endurance
+29,35-39.9,Obesity Class 2 (Severe),Endurance Training,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Monday,Running (Moderate Pace),1,30 min,Cardio endurance
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Monday,Jump Rope,4,3 min rounds,Agility and stamina
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Monday,Bodyweight Squats,4,20,Lower body endurance
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Tuesday,Cycling,1,40 min,Aerobic endurance
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Tuesday,Push-Ups,4,15,Upper body stamina
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Tuesday,Plank,4,1 min hold,Core endurance
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Wednesday,Rowing Machine,1,30 min,Full-body endurance
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Wednesday,Lunges,4,12,Leg endurance
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Wednesday,Russian Twists,4,20,Core and obliques
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Friday,Swimming,1,30 min,Full-body endurance
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Friday,Dumbbell Shoulder Press,4,12,Upper body endurance
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Friday,Jump Squats,3,15,Leg power and stamina
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Saturday,HIIT Circuit,3,Rounds,Fat-burning and endurance
+30,40+,Obesity Class 3 (Very Severe),Endurance Training,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+31,<18.5,Underweight,Strength Training,Monday,Back Squat,5,5,Lower body strength
+31,<18.5,Underweight,Strength Training,Monday,Deadlifts,4,5,Full-body power
+31,<18.5,Underweight,Strength Training,Monday,Leg Press,4,8,Quad and hamstring strength
+31,<18.5,Underweight,Strength Training,Tuesday,Bench Press,5,5,Upper body strength
+31,<18.5,Underweight,Strength Training,Tuesday,Overhead Press,4,6,Shoulder and triceps power
+31,<18.5,Underweight,Strength Training,Tuesday,Dips,4,8,Triceps and chest strength
+31,<18.5,Underweight,Strength Training,Wednesday,Deadlifts,5,5,Posterior chain development
+31,<18.5,Underweight,Strength Training,Wednesday,Pull-Ups,4,Max,Upper body strength
+31,<18.5,Underweight,Strength Training,Wednesday,Barbell Rows,4,6,Back and grip strength
+31,<18.5,Underweight,Strength Training,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+31,<18.5,Underweight,Strength Training,Friday,Front Squat,5,5,Leg and core strength
+31,<18.5,Underweight,Strength Training,Friday,Romanian Deadlifts,4,8,Hamstring and glute strength
+31,<18.5,Underweight,Strength Training,Friday,Seated Calf Raises,4,15,Lower leg strength
+31,<18.5,Underweight,Strength Training,Saturday,"Strongman Training (Carries, Sled Pulls)",3,Rounds,Full-body power
+31,<18.5,Underweight,Strength Training,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+32,18.5-24.9,Normal Weight,Strength Training,Monday,Back Squat,5,5,Lower body strength
+32,18.5-24.9,Normal Weight,Strength Training,Monday,Deadlifts,4,5,Full-body power
+32,18.5-24.9,Normal Weight,Strength Training,Monday,Leg Press,4,8,Quad and hamstring strength
+32,18.5-24.9,Normal Weight,Strength Training,Tuesday,Bench Press,5,5,Upper body strength
+32,18.5-24.9,Normal Weight,Strength Training,Tuesday,Overhead Press,4,6,Shoulder and triceps power
+32,18.5-24.9,Normal Weight,Strength Training,Tuesday,Dips,4,8,Triceps and chest strength
+32,18.5-24.9,Normal Weight,Strength Training,Wednesday,Deadlifts,5,5,Posterior chain development
+32,18.5-24.9,Normal Weight,Strength Training,Wednesday,Pull-Ups,4,Max,Upper body strength
+32,18.5-24.9,Normal Weight,Strength Training,Wednesday,Barbell Rows,4,6,Back and grip strength
+32,18.5-24.9,Normal Weight,Strength Training,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+32,18.5-24.9,Normal Weight,Strength Training,Friday,Front Squat,5,5,Leg and core strength
+32,18.5-24.9,Normal Weight,Strength Training,Friday,Romanian Deadlifts,4,8,Hamstring and glute strength
+32,18.5-24.9,Normal Weight,Strength Training,Friday,Seated Calf Raises,4,15,Lower leg strength
+32,18.5-24.9,Normal Weight,Strength Training,Saturday,"Strongman Training (Carries, Sled Pulls)",3,Rounds,Full-body power
+32,18.5-24.9,Normal Weight,Strength Training,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+33,25-29.9,Overweight,Strength Training,Monday,Back Squat,5,5,Lower body strength
+33,25-29.9,Overweight,Strength Training,Monday,Deadlifts,4,5,Full-body power
+33,25-29.9,Overweight,Strength Training,Monday,Leg Press,4,8,Quad and hamstring strength
+33,25-29.9,Overweight,Strength Training,Tuesday,Bench Press,5,5,Upper body strength
+33,25-29.9,Overweight,Strength Training,Tuesday,Overhead Press,4,6,Shoulder and triceps power
+33,25-29.9,Overweight,Strength Training,Tuesday,Dips,4,8,Triceps and chest strength
+33,25-29.9,Overweight,Strength Training,Wednesday,Deadlifts,5,5,Posterior chain development
+33,25-29.9,Overweight,Strength Training,Wednesday,Pull-Ups,4,Max,Upper body strength
+33,25-29.9,Overweight,Strength Training,Wednesday,Barbell Rows,4,6,Back and grip strength
+33,25-29.9,Overweight,Strength Training,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+33,25-29.9,Overweight,Strength Training,Friday,Front Squat,5,5,Leg and core strength
+33,25-29.9,Overweight,Strength Training,Friday,Romanian Deadlifts,4,8,Hamstring and glute strength
+33,25-29.9,Overweight,Strength Training,Friday,Seated Calf Raises,4,15,Lower leg strength
+33,25-29.9,Overweight,Strength Training,Saturday,"Strongman Training (Carries, Sled Pulls)",3,Rounds,Full-body power
+33,25-29.9,Overweight,Strength Training,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Monday,Back Squat,5,5,Lower body strength
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Monday,Deadlifts,4,5,Full-body power
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Monday,Leg Press,4,8,Quad and hamstring strength
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Tuesday,Bench Press,5,5,Upper body strength
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Tuesday,Overhead Press,4,6,Shoulder and triceps power
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Tuesday,Dips,4,8,Triceps and chest strength
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Wednesday,Deadlifts,5,5,Posterior chain development
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Wednesday,Pull-Ups,4,Max,Upper body strength
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Wednesday,Barbell Rows,4,6,Back and grip strength
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Friday,Front Squat,5,5,Leg and core strength
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Friday,Romanian Deadlifts,4,8,Hamstring and glute strength
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Friday,Seated Calf Raises,4,15,Lower leg strength
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Saturday,"Strongman Training (Carries, Sled Pulls)",3,Rounds,Full-body power
+34,30-34.9,Obesity Class 1 (Moderate),Strength Training,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Monday,Back Squat,5,5,Lower body strength
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Monday,Deadlifts,4,5,Full-body power
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Monday,Leg Press,4,8,Quad and hamstring strength
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Tuesday,Bench Press,5,5,Upper body strength
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Tuesday,Overhead Press,4,6,Shoulder and triceps power
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Tuesday,Dips,4,8,Triceps and chest strength
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Wednesday,Deadlifts,5,5,Posterior chain development
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Wednesday,Pull-Ups,4,Max,Upper body strength
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Wednesday,Barbell Rows,4,6,Back and grip strength
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Friday,Front Squat,5,5,Leg and core strength
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Friday,Romanian Deadlifts,4,8,Hamstring and glute strength
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Friday,Seated Calf Raises,4,15,Lower leg strength
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Saturday,"Strongman Training (Carries, Sled Pulls)",3,Rounds,Full-body power
+35,35-39.9,Obesity Class 2 (Severe),Strength Training,Sunday,Rest or Light Activity,-,-,Recovery and flexibility
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Monday,Back Squat,5,5,Lower body strength
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Monday,Deadlifts,4,5,Full-body power
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Monday,Leg Press,4,8,Quad and hamstring strength
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Tuesday,Bench Press,5,5,Upper body strength
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Tuesday,Overhead Press,4,6,Shoulder and triceps power
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Tuesday,Dips,4,8,Triceps and chest strength
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Wednesday,Deadlifts,5,5,Posterior chain development
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Wednesday,Pull-Ups,4,Max,Upper body strength
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Wednesday,Barbell Rows,4,6,Back and grip strength
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Thursday,Rest or Active Recovery,-,-,Mobility and stretching
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Friday,Front Squat,5,5,Leg and core strength
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Friday,Romanian Deadlifts,4,8,Hamstring and glute strength
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Friday,Seated Calf Raises,4,15,Lower leg strength
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Saturday,"Strongman Training (Carries, Sled Pulls)",3,Rounds,Full-body power
+36,40+,Obesity Class 3 (Very Severe),Strength Training,Sunday,Rest or Light Activity,-,-,Recovery and flexibility

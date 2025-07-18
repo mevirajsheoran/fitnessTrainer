@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yin Yoga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #F9F5FF;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero {
+            width: 100%;
+            max-width: 1000px;
+            background: linear-gradient(to bottom, #161f54, #301c53);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .benefits-section {
+            width: 100%;
+            max-width: 900px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefits-section h2 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .benefits-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .benefits-section li {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin-top: 20px;
+        }
+
+        .list-item {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .list-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .list-item h3 {
+            margin: 0;
+            font-size: 22px;
+            color: #13138f;
+        }
+
+        .list-item p {
+            margin: 5px 0;
+            color: #444;
+            font-size: 16px;
+        }
+
+        .how-to {
+            margin-top: 10px;
+            background: #d4d6e2;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .how-to h4 {
+            margin: 0;
+            font-size: 16px;
+            color: #4527A0;
+        }
+        /* Smooth Page Load */
+        body {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Fade-in effect for title */
+        .header {
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in-out forwards;
+        }
+
+        /* Benefits Section with Separate Background */
+        .benefits-section {
+            background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        /* List Items - Slide-in Animation */
+        .asana-list {
+            opacity: 0;
+            transform: translateX(-50px);
+            animation: slideIn 1.2s ease-in-out forwards;
+        }
+
+        /* Hover Effect on Asana Cards */
+        .asana-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Yin Yoga</h1>
+        <p>A slow-paced yoga practice focusing on deep tissue release and relaxation.</p>
+    </div>
+
+    <div class="benefits-section">
+        <h2>Benefits of Yin Yoga</h2>
+        <ul>
+            <li> Enhances flexibility by stretching deep connective tissues.</li>
+            <li> Promotes relaxation and relieves stress.</li>
+            <li> Improves joint mobility and circulation.</li>
+            <li> Increases mindfulness through long-held poses.</li>
+            <li> Stimulates energy flow in the body.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="list-item">
+            <img src="images/butterfly_pose.jpg" alt="Butterfly Pose">
+            <h3>Butterfly Pose (Baddha Konasana)</h3>
+            <p>Opens the hips and groin while improving flexibility.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Sit with soles of feet together, let knees drop open, and gently fold forward.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/seated_forward_bend.jpg" alt="Seated Forward Bend">
+            <h3>Seated Forward Bend (Paschimottanasana)</h3>
+            <p>Stretches the spine and hamstrings while calming the mind.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Sit with legs extended, inhale deeply, and exhale as you fold forward.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/sphinx_pose.jpg" alt="Sphinx Pose">
+            <h3>Sphinx Pose</h3>
+            <p>Gently opens the chest and stretches the lower back.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your stomach, place elbows under shoulders, and lift chest.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/caterpillar_pose.jpg" alt="Caterpillar Pose">
+            <h3>Caterpillar Pose</h3>
+            <p>A deeper variation of the seated forward bend that releases back tension.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Sit with legs extended, round your spine, and let your head drop forward.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/deer_pose.jpg" alt="Deer Pose">
+            <h3>Deer Pose</h3>
+            <p>Gently stretches the hips and spine.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Sit with one leg bent in front and the other behind, twist slightly.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/sleeping_swan.jpg" alt="Sleeping Swan">
+            <h3>Sleeping Swan</h3>
+            <p>Deeply opens the hips and stretches the legs.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>From all fours, bring one leg forward, extend the other behind, and fold over.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/dragon_pose.jpg" alt="Dragon Pose">
+            <h3>Dragon Pose</h3>
+            <p>Intensely stretches the hip flexors and quadriceps.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Step one foot forward into a lunge, drop the back knee, and sink hips down.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/reclined_twist.jpg" alt="Reclined Twist">
+            <h3>Reclined Twist</h3>
+            <p>Releases tension in the spine and promotes relaxation.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your back, bend one knee across your body, and stretch arms out.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/frog_pose.jpg" alt="Frog Pose">
+            <h3>Frog Pose</h3>
+            <p>Opens the inner thighs and hips deeply.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Come onto hands and knees, spread knees apart, and lower hips.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Guide</title>
+    <style>
+        /* Background Styling */
+        body {
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Container for Cards */
+        .container {
+            max-width: 1200px;
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Card Styling */
+        .card {
+            background: #ffffffcc;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px;
+            background: #f4eaff;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-body p {
+            color: #444;
+        }
+
+        .hidden-info {
+            display: none;
+            padding: 10px;
+            color: #333;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        .card-footer {
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f4eaff;
+        }
+
+        .button {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 20px;
+            background: purple;
+            color: white;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .button:hover {
+            background: darkviolet;
+        }
+
+        .button-outline {
+            padding: 8px 15px;
+            border: 1px solid purple;
+            border-radius: 20px;
+            background: white;
+            color: purple;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .button-outline:hover {
+            background: purple;
+            color: white;
+        }
+
+        .message {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            color: #000000;
+            background: linear-gradient(135deg, #F3E5F5, #ffffff);
+            padding: 33px 17px;
+            border-radius: 12px;
+            margin-bottom: 49px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .message::before {
+            content: "🧘‍♀️"; /* Yoga emoji */
+            font-size: 25px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="yoga-message"></div>
+
+    <div class="container" id="yoga-cards"></div>
+
+    <script>
+        async function fetchUserProgress() {
+            try {
+                const response = await fetch("/getUserProgress", { method: "GET", credentials: "include" });
+                const data = await response.json();
+
+                if (data.error) {
+                    alert(data.error);
+                    window.location.href = "login.html";
+                    return;
+                }
+
+                const goals = data.goals;
+
+                // Define Yoga Goals
+                const yogaGoals = [
+                    "hatha_yoga", "vinyasa_yoga", "yin_yoga", "kundalini_yoga",
+                    "ashtanga_yoga", "iyengar_yoga", "bikram_yoga", "restorative_yoga",
+                    "power_yoga", "aerial_yoga"
+                ];
+
+                // Check if at least one yoga goal is selected
+                let activeYoga = yogaGoals.find(goal => goals[goal]);
+
+                // Message Container
+                const messageDiv = document.getElementById("yoga-message");
+
+                if (activeYoga) {
+                    messageDiv.innerHTML = `<div class="message">🧘 You are interested in Yoga. Here is a guide for you.</div>`;
+                    loadYogaCards();
+                } else {
+                    messageDiv.innerHTML = `<div class="message">Yoga is not selected. Please update your information and select Yoga.</div>`;
+                }
+
+            } catch (error) {
+                console.error("Error fetching progress:", error);
+            }
+        }
+
+        function loadYogaCards() {
+            const yogaTypes = [
+                { name: "Hatha Yoga", description: "A foundational practice focusing on postures and breathing.", details: "Hatha Yoga is a gentle practice involving basic postures and breathing exercises. It enhances flexibility, balance, and relaxation. Ideal for beginners.", image: "images/hatha_yoga.jpg" },
+                { name: "Vinyasa Yoga", description: "A dynamic flow of poses synchronized with breath.", details: "Vinyasa Yoga is a fast-paced practice that links movement with breath. It builds strength, endurance, and flexibility.", image: "images/vinyasa_yoga.jpg" },
+                { name: "Ashtanga Yoga", description: "A structured and intense yoga practice.", details: "Ashtanga Yoga follows a fixed sequence of poses that build strength, flexibility, and discipline.", image: "images/ashtanga_yoga.jpg" },
+                { name: "Iyengar Yoga", description: "Focuses on precision and alignment using props.", details: "Iyengar Yoga emphasizes proper alignment and longer pose holding, often using props like blocks and straps.", image: "images/iyengar_yoga.jpg" },
+                { name: "Bikram Yoga", description: "26 fixed postures practiced in a heated room.", details: "Bikram Yoga is a 90-minute practice consisting of 26 poses and 2 breathing exercises in a 40°C room.", image: "images/bikram_yoga.jpg" },
+                { name: "Kundalini Yoga", description: "Breathwork, meditation, and dynamic movement.", details: "Kundalini Yoga combines breathwork, chanting, and meditation to awaken energy and improve mental clarity.", image: "images/kundalini_yoga.jpg" },
+                { name: "Yin Yoga", description: "Long-held poses for deep tissue relaxation.", details: "Yin Yoga involves passive stretches targeting deep connective tissues, held for several minutes.", image: "images/yin_yoga.jpg" },
+                { name: "Restorative Yoga", description: "Gentle poses supported by props for relaxation.", details: "Restorative Yoga uses blankets and bolsters for gentle, restful poses to promote relaxation.", image: "images/restorative_yoga.jpg" },
+                { name: "Power Yoga", description: "A fast-paced and physically intense yoga style.", details: "Power Yoga is a vigorous, fitness-based approach that builds strength, endurance, and flexibility.", image: "images/power_yoga.jpg" },
+                { name: "Aerial Yoga", description: "Yoga practiced in suspension using hammocks.", details: "Aerial Yoga incorporates traditional poses with support from a hammock to enhance flexibility and core strength.", image: "images/aerial_yoga.jpg" }
+            ];
+
+            const yogaContainer = document.getElementById("yoga-cards");
+            yogaContainer.innerHTML = ""; 
+
+            yogaTypes.forEach((yoga, index) => {
+                let card = `
+                    <div class="card">
+                        <div class="card-header">${yoga.name}</div>
+                        <img src="${yoga.image}" alt="${yoga.name}" class="card-image">
+                        <div class="card-body">
+                            <p>${yoga.description}</p>
+                            <div id="details-${index}" class="hidden-info">${yoga.details}</div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="button-outline" onclick="toggleDetails(${index})">Learn More</button>
+                            <button class="button" onclick="window.location.href='${yoga.name.toLowerCase().replace(/\s+/g, '_')}.html'">Try Now</button>
+                        </div>
+                    </div>
+                `;
+                yogaContainer.innerHTML += card;
+            });
+        }
+
+        function toggleDetails(index) {
+            let detailsDiv = document.getElementById(`details-${index}`);
+            detailsDiv.style.display = detailsDiv.style.display === "block" ? "none" : "block";
+        }
+
+        fetchUserProgress();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehabilitation Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex flex-col items-center min-h-screen py-10">
+
+    <div class="max-w-4xl w-full bg-white p-6 rounded-xl shadow-md">
+        <h1 class="text-3xl font-bold text-gray-900">Rehabilitation Guide</h1>
+        <p class="text-lg text-gray-600 mt-2">Selected injuries: <span id="selectedInjuries"></span></p>
+    </div>
+
+    <div id="injuryOptions" class="max-w-4xl w-full mt-6 space-y-4"></div>
+
+    <script>
+        const injuryImages = {
+            "lower_back": "images/lower_back_pain.jpg",
+            "shoulder": "images/shoulder_pain.jpg",
+            "neck": "images/neck_pain.jpg",
+            "elbow": "images/elbow_pain.jpg",
+            "knee": "images/knee_pain.jpg",
+            "wrist": "images/wrist_pain.jpg"
+        };
+    
+        const activeInjuries = JSON.parse(localStorage.getItem("activeInjuries")) || [];
+        const injuryOptions = document.getElementById("injuryOptions");
+        const selectedInjuriesText = document.getElementById("selectedInjuries");
+    
+        if (activeInjuries.length === 0) {
+            selectedInjuriesText.textContent = "No injuries selected.";
+        } else {
+            selectedInjuriesText.textContent = activeInjuries.join(", ").replace(/_/g, " ");
+    
+            activeInjuries.forEach(injury => {
+                const injuryDiv = document.createElement("div");
+                injuryDiv.classList.add("bg-white", "p-5", "rounded-xl", "shadow-md", "flex", "items-center", "space-x-4");
+    
+                const img = document.createElement("img");
+                img.src = injuryImages[injury] || "images/default.jpg"; // Fallback if no image is found
+                img.alt = injury;
+                img.classList.add("w-20", "h-20", "rounded-lg", "bg-gray-200");
+    
+                const infoDiv = document.createElement("div");
+                const title = document.createElement("h2");
+                title.classList.add("text-xl", "font-semibold", "text-gray-900");
+                title.textContent = injury.replace(/_/g, " ");
+    
+                const description = document.createElement("p");
+                description.classList.add("text-gray-600");
+                description.textContent = "Click the button below to view detailed rehabilitation exercises.";
+    
+                const link = document.createElement("a");
+                link.href = `${injury}.html`;
+                link.classList.add("mt-2", "inline-block", "px-4", "py-2", "bg-blue-600", "text-white", "rounded-lg", "font-semibold", "hover:bg-blue-700", "transition");
+                link.textContent = "View Details";
+    
+                infoDiv.appendChild(title);
+                infoDiv.appendChild(description);
+                infoDiv.appendChild(link);
+    
+                injuryDiv.appendChild(img);
+                injuryDiv.appendChild(infoDiv);
+                injuryOptions.appendChild(injuryDiv);
+            });
+        }
+    </script>
+    
+
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatha Yoga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #F9F5FF;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero {
+            width: 100%;
+            max-width: 1000px;
+            background: linear-gradient(to bottom, #161f54, #301c53);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .benefits-section {
+            width: 100%;
+            max-width: 900px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefits-section h2 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .benefits-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .benefits-section li {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin-top: 20px;
+        }
+
+        .list-item {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .list-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .list-item h3 {
+            margin: 0;
+            font-size: 22px;
+            color: #13138f;
+        }
+
+        .list-item p {
+            margin: 5px 0;
+            color: #444;
+            font-size: 16px;
+        }
+
+        .how-to {
+            margin-top: 10px;
+            background: #d4d6e2;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .how-to h4 {
+            margin: 0;
+            font-size: 16px;
+            color: #4527A0;
+        }
+        /* Smooth Page Load */
+        body {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Fade-in effect for title */
+        .header {
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in-out forwards;
+        }
+
+        /* Benefits Section with Separate Background */
+        .benefits-section {
+            background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        /* List Items - Slide-in Animation */
+        .asana-list {
+            opacity: 0;
+            transform: translateX(-50px);
+            animation: slideIn 1.2s ease-in-out forwards;
+        }
+
+        /* Hover Effect on Asana Cards */
+        .asana-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Hatha Yoga</h1>
+        <p>A gentle introduction to basic yoga postures and breathing techniques.</p>
+    </div>
+
+    <div class="benefits-section">
+        <h2>Benefits of Hatha Yoga</h2>
+        <ul>
+            <li> Enhances flexibility and muscle strength.</li>
+            <li> Reduces stress and promotes relaxation.</li>
+            <li> Improves posture and balance.</li>
+            <li> Boosts respiratory health through breath control.</li>
+            <li> Encourages mindfulness and mental clarity.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="list-item">
+            <img src="images/mountain_pose.jpg" alt="Mountain Pose">
+            <h3>Mountain Pose (Tadasana)</h3>
+            <p>Improves posture, strengthens the legs, and promotes mindfulness by focusing on balance and alignment.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Stand tall with feet together, arms relaxed at your sides, and distribute weight evenly across both feet. Engage your thighs and core, lengthen your spine, and breathe deeply.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/downward_dog.jpg" alt="Downward Dog">
+            <h3>Downward Dog (Adho Mukha Svanasana)</h3>
+            <p>Stretches the spine, shoulders, and hamstrings while enhancing blood circulation and relieving stress.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Start on hands and knees, tuck toes, and lift hips toward the ceiling, forming an inverted "V" shape. Keep heels reaching toward the floor and hands firmly pressing into the mat.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/warrior_pose.jpg" alt="Warrior Pose">
+            <h3>Warrior Pose (Virabhadrasana)</h3>
+            <p>Builds endurance, strengthens the legs and core, and improves balance and stability.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Step one foot back, bend the front knee to a 90-degree angle, and extend arms parallel to the ground. Keep your gaze forward and hold the position.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/tree_pose.jpg" alt="Tree Pose">
+            <h3>Tree Pose (Vrikshasana)</h3>
+            <p>Enhances concentration, stability, and leg strength by improving balance.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Stand tall, shift weight to one leg, and place the sole of the opposite foot against the inner thigh or calf. Bring hands to prayer position and maintain balance.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/seated_forward_bend.jpg" alt="Seated Forward Bend">
+            <h3>Seated Forward Bend (Paschimottanasana)</h3>
+            <p>Stretches the spine, hamstrings, and lower back while calming the mind.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Sit with legs extended, inhale to lengthen the spine, and exhale while folding forward, reaching toward your toes.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/child_pose.jpg" alt="Child's Pose">
+            <h3>Child’s Pose (Balasana)</h3>
+            <p>Provides deep relaxation, relieves stress, and gently stretches the back and hips.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Kneel, sit back on heels, extend arms forward, and lower your forehead to the mat, relaxing completely.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

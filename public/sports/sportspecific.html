@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport-Specific Training Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex flex-col items-center min-h-screen py-10">
+
+    <div class="max-w-4xl w-full bg-white p-6 rounded-xl shadow-md">
+        <h1 class="text-3xl font-bold text-gray-900">Sport-Specific Training Guide</h1>
+        <p class="text-lg text-gray-600 mt-2">Selected sports: <span id="selectedSports"></span></p>
+    </div>
+
+    <div id="sportsOptions" class="max-w-4xl w-full mt-6 space-y-4"></div>
+
+    <script>
+        async function fetchUserProgress() {
+            try {
+                const response = await fetch("/getUserProgress", { method: "GET", credentials: "include" });
+                const data = await response.json();
+
+                if (data.error) {
+                    alert(data.error);
+                    window.location.href = "login.html";
+                    return;
+                }
+
+                // Define sports-related goals
+                const sportGoals = ["running", "swimming", "athletics"];
+
+                // Identify user's selected sports
+                const activeSports = sportGoals.filter(goal => data.goals[goal]);
+                const sportsOptions = document.getElementById("sportsOptions");
+                const selectedSportsText = document.getElementById("selectedSports");
+
+                if (activeSports.length === 0) {
+                    selectedSportsText.textContent = "No sports selected.";
+                    return;
+                } 
+
+                selectedSportsText.textContent = activeSports.map(sport => sport.replace(/_/g, " ")).join(", ");
+
+                // Image mapping for sports
+                const sportImages = {
+                    "running": "images/running.jpg",
+                    "swimming": "images/swimming.jpg",
+                    "athletics": "images/athletics.jpg"
+                };
+
+                // Dynamically generate sports sections
+                activeSports.forEach(sport => {
+                    const sportDiv = document.createElement("div");
+                    sportDiv.classList.add("bg-white", "p-5", "rounded-xl", "shadow-md", "flex", "items-center", "space-x-4");
+
+                    const img = document.createElement("img");
+                    img.src = sportImages[sport] || "images/default.jpg"; // Fallback image
+                    img.alt = sport;
+                    img.classList.add("w-20", "h-20", "rounded-lg", "bg-gray-200");
+
+                    const infoDiv = document.createElement("div");
+                    const title = document.createElement("h2");
+                    title.classList.add("text-xl", "font-semibold", "text-gray-900");
+                    title.textContent = sport.replace(/_/g, " ");
+
+                    const description = document.createElement("p");
+                    description.classList.add("text-gray-600");
+                    description.textContent = "Click the button below to view detailed training programs.";
+
+                    const link = document.createElement("a");
+                    link.href = `${sport}.html`;
+                    link.classList.add("mt-2", "inline-block", "px-4", "py-2", "bg-blue-600", "text-white", "rounded-lg", "font-semibold", "hover:bg-blue-700", "transition");
+                    link.textContent = "View Details";
+
+                    infoDiv.appendChild(title);
+                    infoDiv.appendChild(description);
+                    infoDiv.appendChild(link);
+
+                    sportDiv.appendChild(img);
+                    sportDiv.appendChild(infoDiv);
+                    sportsOptions.appendChild(sportDiv);
+                });
+
+            } catch (error) {
+                console.error("Error fetching progress:", error);
+            }
+        }
+
+        fetchUserProgress();
+    </script>
+
+</body>
+</html>

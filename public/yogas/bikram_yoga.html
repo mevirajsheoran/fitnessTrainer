@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikram Yoga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #F9F5FF;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero {
+            width: 100%;
+            max-width: 1000px;
+            background: linear-gradient(to bottom, #161f54, #301c53);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .benefits-section {
+            width: 100%;
+            max-width: 900px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefits-section h2 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .benefits-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .benefits-section li {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin-top: 20px;
+        }
+
+        .list-item {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .list-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .list-item h3 {
+            margin: 0;
+            font-size: 22px;
+            color: #13138f;
+        }
+
+        .list-item p {
+            margin: 5px 0;
+            color: #444;
+            font-size: 16px;
+        }
+
+        .how-to {
+            margin-top: 10px;
+            background: #d4d6e2;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .how-to h4 {
+            margin: 0;
+            font-size: 16px;
+            color: #4527A0;
+        }
+        /* Smooth Page Load */
+        body {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Fade-in effect for title */
+        .header {
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in-out forwards;
+        }
+
+        /* Benefits Section with Separate Background */
+        .benefits-section {
+            background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        /* List Items - Slide-in Animation */
+        .asana-list {
+            opacity: 0;
+            transform: translateX(-50px);
+            animation: slideIn 1.2s ease-in-out forwards;
+        }
+
+        /* Hover Effect on Asana Cards */
+        .asana-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Bikram Yoga</h1>
+        <p>A sequence of 26 postures practiced in a heated room, focusing on detoxification and flexibility.</p>
+    </div>
+
+    <div class="benefits-section">
+        <h2>Benefits of Bikram Yoga</h2>
+        <ul>
+            <li> Enhances flexibility and strength.</li>
+            <li> Detoxifies the body through sweating.</li>
+            <li> Improves circulation and lung capacity.</li>
+            <li> Helps in weight loss and stress relief.</li>
+            <li> Boosts focus and mental endurance.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="list-item">
+            <img src="images/half_moon_pose.jpg" alt="Half Moon Pose">
+            <h3>Half Moon Pose (Ardha Chandrasana)</h3>
+            <p>Improves balance and flexibility.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Stand straight, raise arms, and bend sideways while keeping the core engaged.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/eagle_pose.jpg" alt="Eagle Pose">
+            <h3>Eagle Pose (Garudasana)</h3>
+            <p>Strengthens the legs and improves concentration.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Wrap one leg around the other and bring hands together in front of the chest.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/bow_pose.jpg" alt="Bow Pose">
+            <h3>Bow Pose (Dhanurasana)</h3>
+            <p>Opens the chest and strengthens the back.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your stomach, grab your ankles, and lift your chest while pulling your legs up.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/triangle_pose.jpg" alt="Triangle Pose">
+            <h3>Triangle Pose (Trikonasana)</h3>
+            <p>Improves flexibility and stretches the spine.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Stand with legs wide apart, extend one arm down to the ankle, and stretch the other upward.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/camel_pose.jpg" alt="Camel Pose">
+            <h3>Camel Pose (Ustrasana)</h3>
+            <p>Enhances spinal flexibility and opens the chest.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Kneel, arch your back, and reach for your heels with both hands.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/tree_pose.jpg" alt="Tree Pose">
+            <h3>Tree Pose (Vrikshasana)</h3>
+            <p>Enhances balance and mental focus.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Place one foot on the inner thigh of the opposite leg and balance with hands in prayer position.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/corpse_pose.jpg" alt="Corpse Pose">
+            <h3>Corpse Pose (Savasana)</h3>
+            <p>Promotes deep relaxation and recovery.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your back, relax your body, and focus on breathing.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

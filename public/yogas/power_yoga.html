@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Yoga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #F9F5FF;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero {
+            width: 100%;
+            max-width: 1000px;
+            background: linear-gradient(to bottom, #161f54, #301c53);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .benefits-section {
+            width: 100%;
+            max-width: 900px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefits-section h2 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .benefits-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .benefits-section li {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin-top: 20px;
+        }
+
+        .list-item {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .list-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .list-item h3 {
+            margin: 0;
+            font-size: 22px;
+            color: #13138f;
+        }
+
+        .list-item p {
+            margin: 5px 0;
+            color: #444;
+            font-size: 16px;
+        }
+
+        .how-to {
+            margin-top: 10px;
+            background: #d4d6e2;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .how-to h4 {
+            margin: 0;
+            font-size: 16px;
+            color: #4527A0;
+        }
+        /* Smooth Page Load */
+        body {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Fade-in effect for title */
+        .header {
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in-out forwards;
+        }
+
+        /* Benefits Section with Separate Background */
+        .benefits-section {
+            background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        /* List Items - Slide-in Animation */
+        .asana-list {
+            opacity: 0;
+            transform: translateX(-50px);
+            animation: slideIn 1.2s ease-in-out forwards;
+        }
+
+        /* Hover Effect on Asana Cards */
+        .asana-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Power Yoga</h1>
+        <p>A dynamic and intense yoga practice that builds strength, endurance, and flexibility.</p>
+    </div>
+
+    <div class="benefits-section">
+        <h2>Benefits of Power Yoga</h2>
+        <ul>
+            <li> Improves cardiovascular health.</li>
+            <li> Builds strength and muscle tone.</li>
+            <li> Enhances flexibility and balance.</li>
+            <li> Boosts metabolism and aids weight loss.</li>
+            <li> Increases mental focus and reduces stress.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="list-item">
+            <img src="images/downward_dog.jpg" alt="Downward Dog">
+            <h3>Downward-Facing Dog (Adho Mukha Svanasana)</h3>
+            <p>Strengthens the arms, shoulders, and legs while improving flexibility.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Start in a plank position, lift your hips up, and press your heels towards the floor.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/warrior_pose.jpg" alt="Warrior Pose">
+            <h3>Warrior II (Virabhadrasana II)</h3>
+            <p>Develops leg strength, endurance, and stability.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Stand with feet apart, bend the front knee, and extend arms parallel to the floor.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/chaturanga.jpg" alt="Chaturanga">
+            <h3>Chaturanga Dandasana (Four-Limbed Staff Pose)</h3>
+            <p>Builds upper body strength, especially in the arms and core.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lower your body from a plank position, keeping elbows close to your ribs.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/crow_pose.jpg" alt="Crow Pose">
+            <h3>Crow Pose (Bakasana)</h3>
+            <p>Improves arm strength and balance.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Place your hands on the ground, lift your feet, and balance on your arms.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/boat_pose.jpg" alt="Boat Pose">
+            <h3>Boat Pose (Navasana)</h3>
+            <p>Strengthens the core and improves balance.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Sit, lift your legs, and balance on your sit bones while extending your arms forward.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/triangle_pose.jpg" alt="Triangle Pose">
+            <h3>Triangle Pose (Trikonasana)</h3>
+            <p>Stretches the legs and torso while improving flexibility.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Stand with legs wide, extend one arm down to the ankle and the other up.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/wheel_pose.jpg" alt="Wheel Pose">
+            <h3>Wheel Pose (Urdhva Dhanurasana)</h3>
+            <p>Strengthens the spine and improves flexibility.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your back, place hands near ears, and push up into a backbend.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

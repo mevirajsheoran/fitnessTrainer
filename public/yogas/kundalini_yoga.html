@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kundalini Yoga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #F9F5FF;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero {
+            width: 100%;
+            max-width: 1000px;
+            background: linear-gradient(to bottom, #161f54, #301c53);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .benefits-section {
+            width: 100%;
+            max-width: 900px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefits-section h2 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .benefits-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .benefits-section li {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin-top: 20px;
+        }
+
+        .list-item {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .list-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .list-item h3 {
+            margin: 0;
+            font-size: 22px;
+            color: #13138f;
+        }
+
+        .list-item p {
+            margin: 5px 0;
+            color: #444;
+            font-size: 16px;
+        }
+
+        .how-to {
+            margin-top: 10px;
+            background: #d4d6e2;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .how-to h4 {
+            margin: 0;
+            font-size: 16px;
+            color: #4527A0;
+        }
+        /* Smooth Page Load */
+        body {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Fade-in effect for title */
+        .header {
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in-out forwards;
+        }
+
+        /* Benefits Section with Separate Background */
+        .benefits-section {
+            background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        /* List Items - Slide-in Animation */
+        .asana-list {
+            opacity: 0;
+            transform: translateX(-50px);
+            animation: slideIn 1.2s ease-in-out forwards;
+        }
+
+        /* Hover Effect on Asana Cards */
+        .asana-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Kundalini Yoga</h1>
+        <p>A powerful yoga practice focused on awakening inner energy through breath, movement, and meditation.</p>
+    </div>
+
+    <div class="benefits-section">
+        <h2>Benefits of Kundalini Yoga</h2>
+        <ul>
+            <li> Enhances spiritual awareness and inner peace.</li>
+            <li> Increases energy and mental clarity.</li>
+            <li> Strengthens the nervous system.</li>
+            <li> Reduces stress and emotional blockages.</li>
+            <li> Balances chakras and promotes self-healing.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="list-item">
+            <img src="images/spinal_flex.jpg" alt="Spinal Flex">
+            <h3>Spinal Flex</h3>
+            <p>Improves spinal flexibility and energizes the body.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Sit cross-legged, hold ankles, inhale arching spine forward, exhale rounding back.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/cobra_pose.jpg" alt="Cobra Pose">
+            <h3>Cobra Pose (Bhujangasana)</h3>
+            <p>Opens the heart and activates energy flow.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your stomach, hands under shoulders, lift chest while keeping elbows slightly bent.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/frog_pose.jpg" alt="Frog Pose">
+            <h3>Frog Pose</h3>
+            <p>Strengthens legs and activates lower chakras.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Squat with heels up, fingertips on the floor, inhale lifting hips, exhale squatting down.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/sat_kriya.jpg" alt="Sat Kriya">
+            <h3>Sat Kriya</h3>
+            <p>Balances energy and strengthens core muscles.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Kneel, interlace fingers, raise arms overhead, chant "Sat" pulling navel in, "Nam" releasing.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/kapalbhatti-GIF" alt="Breath of Fire">
+            <h3>Breath of Fire (Kapalabhati)</h3>
+            <p>Detoxifies the body and increases lung capacity.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Sit tall, inhale deeply, then rapidly exhale through the nose while pulling the navel in.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/eagle_pose.jpg" alt="Eagle Pose">
+            <h3>Eagle Pose (Garudasana)</h3>
+            <p>Improves balance and mental focus.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Wrap one leg around the other, cross arms in front, and hold the pose.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/shoulder_stand.jpg" alt="Shoulder Stand">
+            <h3>Shoulder Stand (Sarvangasana)</h3>
+            <p>Stimulates the thyroid and increases blood circulation.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your back, lift legs over head, support back with hands.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/root_lock.jpg" alt="Root Lock">
+            <h3>Root Lock (Mula Bandha)</h3>
+            <p>Activates lower chakras and strengthens pelvic muscles.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Sit cross-legged, inhale deeply, contract pelvic muscles, hold, then release.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

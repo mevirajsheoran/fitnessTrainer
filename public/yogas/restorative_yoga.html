@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restorative Yoga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #F9F5FF;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero {
+            width: 100%;
+            max-width: 1000px;
+            background: linear-gradient(to bottom, #161f54, #301c53);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .benefits-section {
+            width: 100%;
+            max-width: 900px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefits-section h2 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .benefits-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .benefits-section li {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin-top: 20px;
+        }
+
+        .list-item {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .list-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .list-item h3 {
+            margin: 0;
+            font-size: 22px;
+            color: #13138f;
+        }
+
+        .list-item p {
+            margin: 5px 0;
+            color: #444;
+            font-size: 16px;
+        }
+
+        .how-to {
+            margin-top: 10px;
+            background: #d4d6e2;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .how-to h4 {
+            margin: 0;
+            font-size: 16px;
+            color: #4527A0;
+        }
+        /* Smooth Page Load */
+        body {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Fade-in effect for title */
+        .header {
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in-out forwards;
+        }
+
+        /* Benefits Section with Separate Background */
+        .benefits-section {
+            background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        /* List Items - Slide-in Animation */
+        .asana-list {
+            opacity: 0;
+            transform: translateX(-50px);
+            animation: slideIn 1.2s ease-in-out forwards;
+        }
+
+        /* Hover Effect on Asana Cards */
+        .asana-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Restorative Yoga</h1>
+        <p>A slow, gentle yoga practice designed to promote deep relaxation, healing, and stress relief.</p>
+    </div>
+
+    <div class="benefits-section">
+        <h2>Benefits of Restorative Yoga</h2>
+        <ul>
+            <li> Reduces stress and anxiety.</li>
+            <li> Promotes deep relaxation and better sleep.</li>
+            <li> Enhances flexibility and joint mobility.</li>
+            <li> Helps in recovery from injuries and chronic pain.</li>
+            <li> Improves breath awareness and mindfulness.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="list-item">
+            <img src="images/child_pose.jpg" alt="Child's Pose">
+            <h3>Child’s Pose (Balasana)</h3>
+            <p>Gently stretches the lower back and promotes relaxation.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Kneel, sit back on your heels, and stretch your arms forward while lowering your head.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/reclining_goddess.jpg" alt="Reclining Goddess Pose">
+            <h3>Reclining Goddess Pose (Supta Baddha Konasana)</h3>
+            <p>Opens the hips and promotes deep relaxation.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your back, bring the soles of your feet together, and let your knees drop open.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/legs_up_wall.jpg" alt="Legs Up the Wall">
+            <h3>Legs Up the Wall (Viparita Karani)</h3>
+            <p>Reduces fatigue and improves circulation.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your back and extend your legs up against a wall, keeping your spine neutral.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/corpse_pose.jpg" alt="Corpse Pose">
+            <h3>Corpse Pose (Savasana)</h3>
+            <p>Encourages deep relaxation and mental clarity.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your back, relax your body, and focus on your breath.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/forward_fold.jpg" alt="Seated Forward Fold">
+            <h3>Seated Forward Fold (Paschimottanasana)</h3>
+            <p>Gently stretches the spine and calms the nervous system.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Sit with legs extended and fold forward, reaching for your feet.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/bridge_pose.jpg" alt="Bridge Pose">
+            <h3>Supported Bridge Pose (Setu Bandhasana)</h3>
+            <p>Opens the chest and improves spinal flexibility.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your back, bend your knees, and lift your hips with support under your lower back.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/twists.jpg" alt="Supine Spinal Twist">
+            <h3>Supine Spinal Twist (Supta Matsyendrasana)</h3>
+            <p>Releases tension in the spine and promotes digestion.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your back, bring one knee across your body, and gently twist to the side.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

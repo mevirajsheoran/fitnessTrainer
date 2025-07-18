@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iyengar Yoga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #F5F5F5;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero {
+            width: 100%;
+            max-width: 1000px;
+            background: linear-gradient(to bottom, #054691, #04243e);
+            border-radius: 20px;
+            margin-bottom: 20px;
+            padding: 30px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .benefits-section {
+            width: 100%;
+            max-width: 900px;
+            background: linear-gradient(135deg, #1976D2, #0D47A1);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        .benefits-section h2 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .benefits-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .benefits-section li {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin-top: 20px;
+        }
+
+        .list-item {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .list-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .list-item h3 {
+            margin: 0;
+            font-size: 22px;
+            color: #1565C0;
+        }
+
+        .list-item p {
+            margin: 5px 0;
+            color: #444;
+            font-size: 16px;
+        }
+
+        .how-to {
+            margin-top: 10px;
+            background: #D0E4F7;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .how-to h4 {
+            margin: 0;
+            font-size: 16px;
+            color: #0D47A1;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Iyengar Yoga</h1>
+        <p>A form of yoga that emphasizes precision, alignment, and the use of props to achieve perfect posture.</p>
+    </div>
+
+    <div class="benefits-section">
+        <h2>Benefits of Iyengar Yoga</h2>
+        <ul>
+            <li> Improves posture and body alignment.</li>
+            <li> Enhances flexibility and strength.</li>
+            <li> Uses props for better accessibility.</li>
+            <li> Boosts concentration and balance.</li>
+            <li> Reduces stress and tension.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="list-item">
+            <img src="images/mountain_pose.jpg" alt="Mountain Pose">
+            <h3>Mountain Pose (Tadasana)</h3>
+            <p>Improves posture and stability.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Stand tall with feet together, arms at sides, and engage core muscles.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/downward_dog.jpg" alt="Downward Dog">
+            <h3>Downward-Facing Dog (Adho Mukha Svanasana)</h3>
+            <p>Strengthens arms, shoulders, and legs.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Form an inverted V-shape by lifting hips and extending arms and legs.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/warrior_pose.jpg" alt="Warrior II">
+            <h3>Warrior II (Virabhadrasana II)</h3>
+            <p>Improves strength and endurance.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Step one leg back, bend the front knee, and extend arms parallel to the ground.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/tree_pose.jpg" alt="Tree Pose">
+            <h3>Tree Pose (Vrikshasana)</h3>
+            <p>Enhances balance and concentration.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Place one foot on the opposite thigh and balance with hands in prayer position.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/seated_forward_bend.jpg" alt="Seated Forward Bend">
+            <h3>Seated Forward Bend (Paschimottanasana)</h3>
+            <p>Stretches the back and calms the mind.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Sit with legs extended, reach forward, and hold feet or shins.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/bridge_pose.jpg" alt="Bridge Pose">
+            <h3>Bridge Pose (Setu Bandhasana)</h3>
+            <p>Strengthens the back and relieves tension.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your back, bend knees, lift hips, and keep arms at your sides.</p>
+            </div>
+        </div>
+
+        <div class="list-item">
+            <img src="images/corpse_pose.jpg" alt="Corpse Pose">
+            <h3>Corpse Pose (Savasana)</h3>
+            <p>Promotes deep relaxation and stress relief.</p>
+            <div class="how-to">
+                <h4>How to Perform:</h4>
+                <p>Lie on your back, relax your body, and focus on breathing.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
